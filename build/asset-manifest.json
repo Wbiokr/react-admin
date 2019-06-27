@@ -1,0 +1,17 @@
+{
+  "GoodsAdd.js": "js/pages/chunk.GoodsAdd.js",
+  "GoodsEdit.js": "js/pages/chunk.GoodsEdit.js",
+  "GoodsList.js": "js/pages/chunk.GoodsList.js",
+  "GoodsWare.js": "js/pages/chunk.GoodsWare.js",
+  "OrdersDetail.js": "js/pages/chunk.OrdersDetail.js",
+  "OrdersList.js": "js/pages/chunk.OrdersList.js",
+  "Static.js": "js/pages/chunk.Static.js",
+  "Users.js": "js/pages/chunk.Users.js",
+  "app.css": "css/app.css",
+  "app.js": "js/app.js",
+  "img\\bg.jpg": "img/bg.jpg",
+  "media\\iconfont.eot?t=1520426648803": "media/iconfont.eot",
+  "media\\iconfont.svg?t=1520426648803": "media/iconfont.svg",
+  "media\\iconfont.ttf?t=1520426648803": "media/iconfont.ttf",
+  "vendors.js": "js/vendors.js"
+}

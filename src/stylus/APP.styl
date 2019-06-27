@@ -1,0 +1,26 @@
+//  重置样式部分
+// @import './normalize'
+
+// flex 布局
+@import './flex' 
+
+// float浮动布局
+@import './float'
+
+// 定位相关属性 
+@import './position'
+
+*
+  &::-webkit-scrollbar
+    width 4px
+  &:hover
+    &::-webkit-scrollbar-thumb
+      background-color rgba(#999,1)
+
+  &::-webkit-scrollbar-track-piece
+    background rgba(#000,0.05)  
+  &::-webkit-scrollbar-thumb
+    transition all ease .3s
+    border-radius 6px
+    background-color rgba(#ccc,.7)
+    cursor pointer
