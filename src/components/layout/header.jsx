@@ -32,9 +32,8 @@ class Header extends React.Component {
           </Menu>
     )
   }
-  async componentDidMount(){
-    await this.props.getMenuList(this.props.menu[this.state.key].value)
-    console.log(this)
+  componentDidMount(){
+    this.props.getMenuList(this.props.menu[this.state.key].value)
   }
   changeItem(e){
     this.props.getMenuList(this.props.menu[e.key].value)

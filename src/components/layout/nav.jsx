@@ -42,7 +42,6 @@ class Nav extends React.Component {
     )
   }
   openChange(e){
-    console.log(e)
     this.setState({
       openKeys:e
     })
