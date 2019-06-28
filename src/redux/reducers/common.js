@@ -9,7 +9,7 @@ export default function(state=initState,action){
     case 'common_change_height':
       return Object.assign({},state,{height:action.height||window.innerHeight});
     case 'common_change_width':
-      return Object.assign({},state,{width:actions.width||window.innerWidth});
+      return Object.assign({},state,{width:action.width||window.innerWidth});
     default:
       return state;
   }

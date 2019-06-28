@@ -4,9 +4,6 @@ const UserList = props => (<Bundle load={cb=>{require.ensure([],require=>{cb(req
 const Home = props => (<Bundle load={cb=>{require.ensure([],require=>{cb(require('@/screens/index/home').default)},'Home')}}>{Com=><Com {...props} />}</Bundle>);
 
 
-const NotFound = ()=>{
-  return <h1>404, NOT FOUND</h1>
-}
 
 export default [
   {
@@ -19,9 +16,4 @@ export default [
     exact:true,
     component:Home
   },
-  // {
-  //   path:'*',
-  //   redirect:
-  //   // component:<NotFound />
-  // }
 ]
